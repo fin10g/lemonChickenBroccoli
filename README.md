@@ -1,4 +1,4 @@
-#Changes
+# Changes
 + I need to do a few things to complete the index.css file and make it work with the .html file.
 + Titles and headings should be uppercase.
 + Titles and headings should be orange.
