@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Lemon Chicken Broccoli Recipe</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+   </head>
+	<body>
+	    <!-- add an id to your div here -->
+	    <div id="container">
+		<header>
+			<!-- Add your <h1>  here -->
+			<h1>Lemon Chicken Broccoli Pasta</h1>
+			<!-- we will add the image in a later challenge -->
+			<img src="https://i.imgur.com/XHsoeoH.jpg"
+			alt="a delicious looking chicken, broccoli, lemon, pasta dish">
+
+			<!-- Add your <p> here -->
+			<p>A delicious fresh lemon chicken pasta dish with broccoli for extra crunch.</p>
+
+		</header>
+		
+		<section id="ingredients" onmouseover="ingredientsHover()" onmouseout= "ingredientsNormal()">
+			
+			<h2>Ingredients <i class="fa fa-shopping-basket" aria-hidden="true"></i> </h2>
+		
+			<ul>
+			    <li>500g Chicken</li>
+			    <li>Half broccoli crown</li>
+			    <li>Half garlic bulb</li> 
+			    <li>50g parmesan</li>
+			    <li>zest of 2 lemons</li>
+			    <li>juice of 2 lemons</li>
+			    <li>350g conchighle pasta shells</li>
+			</ul>
+		</section>
+		
+		<section id="preparation" onmouseover="preparationHover()" onmouseout= "preparationNormal()">
+			<!-- Add your <h2>  here -->
+			<h2>Preparation <i class="fa fa-spoon" aria-hidden="true"></i></h2>
+			<!-- Add your <ol> list here -->
+			<ol>
+			    <li>Dice and fry chicken on a medium heat. Add crushed garlic and lemon zest</li>
+			    <li>
+			        Boil pasta for 10 minutes.
+			    </li>
+			    <li>When the chicken is cooked through raise heat to high for a minute before turning for another minute. Reduce heat to medium and add broccoli with lemon juice. Cover over with a lid for five minutes.</li>
+			    <li>Place a strainer in a bowl in a sink. empty pasta into strainer. Empty pasta back into the pot and mix with parmesan. Ladel 2 measures of retained pasta water into the mixture, or until it becomes stirrable.</li>
+			    <li>
+			        Add fried chicken and broccoli mixture into pot and stir.
+			    </li>
+			    <li>
+			        Bon Appetit!
+			    </li>
+			</ol>
+		</section>
+		
+		    <footer>
+			    <!-- Add your <p>  here -->
+			    <p>Copyright Me 2020</p>
+		    </footer>
+        </div>
+		<script>
+		    
+		    function ingredientsHover(){
+                document.getElementById("ingredients").style.fontSize = "300%";
+}
+		    function ingredientsNormal(){
+                document.getElementById("ingredients").style.fontSize = "100%";
+}
+		    function preparationHover(){
+		        document.getElementById("preparation").style.fontSize= "300%";
+		    }
+		    function preparationNormal(){
+		        document.getElementById("preparation").style.fontSize = "100%";
+		    }
+		    
+		</script>
+	</body>
+</html>
+
